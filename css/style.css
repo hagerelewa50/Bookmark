@@ -1,0 +1,43 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containr-book{
+    background-color: #EEEEEE;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 5px grey;
+    background-color: #0B3F77;
+}
+.containr-add{
+    background-image:linear-gradient(#EEEEEE,white) ;
+}
+.btn-delete{
+    background-color: #910004;
+
+}
+.btn-delete:hover{
+    background-color: #51110E;
+}
+footer p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.alert-danger{
+    padding: 2px 16px;
+    border-color: #51110E;
+    background-color: #F8B1B2;
+    font-weight: 600;
+}
+#alertName{
+    display:none;
+}
+#nameReq{
+    display:none;
+}
+#siteReq{
+    display: none;
+}

@@ -1,0 +1,51 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="bootstrap.bundle.min.js"></script>
+        <title>Bookmark</title>
+    </head>
+    <body>
+        <header class="pt-5 pb-1">
+            <div class="container">
+                <h3 class="p-4 text-muted fw-">Bookmarker</h3>
+                <hr>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-11  mx-auto py-5  containr-book">
+                    <div class="wel-book text-center">
+                        <h2>Bookmark your favorite sites</h2>
+                        <div class="col-10 mx-auto mt-5">
+                            <div>
+                                <label for="bookName" class="text-dark fw-semibold">Site Name</label>
+                                <input type="text" placeholder="BookmarkName" id="bookName" class="form-control form-control-sm my-3">
+                                <div class="alert alert-danger" id="alertName" role="alert">this name already exist</div>
+                                <div class="alert alert-danger " id="nameReq" role="alert">Name is required</div>
+                            </div>
+                            <div>
+                                <label for="siteUrl" class="text-dark fw-semibold">Site URL</label>
+                                <input type="text" placeholder="Website URL" id="siteUrl" class="form-control form-control-sm my-3">
+                                <div class="alert alert-danger " id="siteReq" role="alert">Url Field is required</div>
+                            </div>
+                            <button type="submit" id="btn-sub" class="btn btn-primary" >submit </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="contBook">
+                </div> 
+                
+            </div>
+        </div>
+        <footer class="pt-5 pb-3">
+            <div class="container">
+                <hr>
+                <p class="text-muted p-3">© 2019 Bookmarker Inc.</p>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
